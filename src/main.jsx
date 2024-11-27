@@ -7,6 +7,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 const router = createBrowserRouter([{
   path: "/",
   element: <App />
+},{
+  path: "/CurrencyConverter/",
+  element: <App />
 }])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
