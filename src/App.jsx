@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { InputBox } from './components'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
+import { BrowserRouter } from 'react-router'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
   }
 
   return (
+    <BrowserRouter  basename='/CurrencyConverter/'>
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
@@ -48,8 +50,6 @@ function App() {
                 onCurrencyChange={(amount) => setAmount(amount)}
                 selectCurrency={from}
                 onAmountChange={(amount) => setAmount(amount)}
-                
-
               />
             </div>
             <div className="relative w-full h-0.5">
@@ -78,7 +78,9 @@ function App() {
         </div>
       </div>
     </div>
+    </BrowserRouter>
   );
+
 }
 
 export default App
