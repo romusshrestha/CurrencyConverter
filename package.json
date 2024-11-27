@@ -1,12 +1,12 @@
 {
-  "homepage": "https://steins07.github.io/reactprojs/06currencyConverter",
+  "homepage": "https://steins07.github.io/CurrencyConverter",
   "name": "06currencyconverter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/06currencyConverter",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -15,7 +15,8 @@
   "dependencies": {
     "06currencyconverter": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router": "^7.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
