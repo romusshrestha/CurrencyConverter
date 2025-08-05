@@ -5,4 +5,4 @@ You can find the detail about the API used in:
 https://github.com/fawazahmed0/exchange-api
 
 This is site have been deployed in following link:
-https://steins07.github.io/CurrencyConverter/
+[https://steins07.github.io/CurrencyConverter/](https://romusshrestha.github.io/CurrencyConverter/)
